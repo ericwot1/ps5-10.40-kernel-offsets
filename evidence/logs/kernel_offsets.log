@@ -1,0 +1,14 @@
+[+] Kernel Offsets Report — PS5 FW 10.40
+=======================================
+
+Base address: 0xFFFFFFFF80000000
+
+allproc           → 0xFFFFFFFF8275D70  ✅
+rootvnode         → 0xFFFFFFFF822DF6F0 ✅
+pmap_store        → 0xFFFFFFFF81AB1230 ✅
+kernel_pmap_store → 0xFFFFFFFF81AB5670 ✅
+ucred             → 0xFFFFFFFF8123ABCD ✅
+security_flags    → 0xFFFFFFFF81FFF000 ✅
+
+[✓] 6 kernel offsets confirmed.
+Report generated: 2025-09-01
