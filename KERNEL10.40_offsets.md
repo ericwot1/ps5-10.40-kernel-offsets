@@ -3,8 +3,6 @@ HEAD
 
 ## Extra Syscalls (useful in exploits)
 
-## Extra Syscalls (useful in exploits)
-
 | Syscall      | Number | Kernel Address | Status     |
 |--------------|--------|----------------|------------|
 | connect      | 98     | TBD            | Confirmed  |
