@@ -1,16 +1,15 @@
-[+] Gadgets Scan Report — PS5 FW 10.40
-=====================================
+ Gadgets Scan Report — PS5 FW 10.40
+
 
 Target: 5_kernel.bin
 Base address: 0xFFFFFFFF80000000
 
--- ROP Gadgets --
-pop rdi ; ret        → 0xFFFFFFFF81012345
-pop rsi ; ret        → 0xFFFFFFFF81023456
-pop rax ; ret        → 0xFFFFFFFF81034567
-mov [rdi], rsi ; ret → 0xFFFFFFFF81045678
-leave ; ret          → 0xFFFFFFFF81056710
-syscall              → 0xFFFFFFFF81056789
+ ROP Gadgets 
+pop rdi ; ret         0xFFFFFFFF81012345
+pop rsi ; ret         0xFFFFFFFF81023456
+pop rax ; ret         0xFFFFFFFF81034567
+mov [rdi], rsi ; ret  0xFFFFFFFF81045678
+leave ; ret           0xFFFFFFFF81056710
+syscall               0xFFFFFFFF81056789
 
-[✓] Scan completed: 6 gadgets confirmed.
 Report generated: 2025-09-01
