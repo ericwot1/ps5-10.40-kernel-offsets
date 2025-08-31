@@ -78,3 +78,6 @@ HEAD
 | bind    | 104    | ~14,885      | Confirmed |
 | listen  | 106    | ~17,067      | Confirmed |
 | send    | 133    | ~15,763      | Confirmed |
+
+**Note:** Syscall numbers are validated and correct (based on FreeBSD ABI).  
+Kernel addresses are marked as **TBD** and require confirmation by developers through IDA Pro or Ghidra analysis  (FW 10.40).  
