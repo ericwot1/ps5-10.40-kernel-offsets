@@ -1,4 +1,4 @@
-# PS5 Root Kit – FW 10.40 (Validated Full Toolbox)
+# PS5 kernel 10.40 Offest Rop ....
 
 ## Stack Pivot Gadgets (stack control)
 | Gadget      | Validated Address(es)                  | Status   |
