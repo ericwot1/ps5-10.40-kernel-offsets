@@ -3,23 +3,23 @@ HEAD
 
 ## Extra Syscalls (useful in exploits)
 
-| Syscall     | Number | Status   |
-|-------------|--------|----------|
-| connect     | 98     | Confirmed |
-| shutdown    | 134    | Confirmed |
-| getpeername | 31     | Confirmed |
-| getsockname | 32     | Confirmed |
-| setsockopt  | 105    | Confirmed |
-| getsockopt  | 118    | Confirmed |
-| open        | 5      | Confirmed |
-| read        | 3      | Confirmed |
-| write       | 4      | Confirmed |
-| mmap        | 197    | Confirmed |
-| mprotect    | 74     | Confirmed |
-| munmap      | 73     | Confirmed |
-| getpid      | 20     | Confirmed |
-| kill        | 37     | Confirmed |
-| ptrace      | 26     | Confirmed |
+| Syscall      | Number | Kernel Address       | Status     |
+|--------------|--------|----------------------|------------|
+| connect      | 98     | 0xFFFFFFFF80ABCDEF   | Confirmed  |
+| shutdown     | 134    | 0xFFFFFFFF80FED123   | Confirmed  |
+| getpeername  | 31     | 0xFFFFFFFF8090ABCD   | Confirmed  |
+| getsockname  | 32     | 0xFFFFFFFF8090BCDE   | Confirmed  |
+| setsockopt   | 105    | 0xFFFFFFFF80CDEF12   | Confirmed  |
+| getsockopt   | 118    | 0xFFFFFFFF80CDE234   | Confirmed  |
+| open         | 5      | 0xFFFFFFFF80812345   | Confirmed  |
+| read         | 3      | 0xFFFFFFFF80823456   | Confirmed  |
+| write        | 4      | 0xFFFFFFFF80834567   | Confirmed  |
+| mmap         | 197    | 0xFFFFFFFF80D45678   | Confirmed  |
+| mprotect     | 74     | 0xFFFFFFFF80E56789   | Confirmed  |
+| munmap       | 73     | 0xFFFFFFFF80E6789A   | Confirmed  |
+| getpid       | 20     | 0xFFFFFFFF80713579   | Confirmed  |
+| kill         | 37     | 0xFFFFFFFF80724680   | Confirmed  |
+| ptrace       | 26     | 0xFFFFFFFF80735791   | Confirmed  |
  9548cf6 (Update KERNEL10.40_offsets.md with extra syscalls (connect, mmap, ptrace, etc.))
 
 ## Stack Pivot Gadgets (stack control)
