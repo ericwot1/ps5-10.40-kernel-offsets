@@ -1,15 +1,14 @@
-[+] Syscall Table Scan — PS5 FW 10.40
-====================================
+ Syscall Table Scan — PS5 FW 10.40
+
 
 Target: 5_kernel.bin
 Base address: 0xFFFFFFFF80000000
 
-recv     (ID 29)   → 0xFFFFFFFF80AA1234 ✅
-accept   (ID 30)   → 0xFFFFFFFF80BB4567 ✅
-socket   (ID 97)   → 0xFFFFFFFF80CC7890 ✅
-bind     (ID 104)  → 0xFFFFFFFF80DDABCD ✅
-listen   (ID 106)  → 0xFFFFFFFF80EE1111 ✅
-send     (ID 133)  → 0xFFFFFFFF80FF2222 ✅
+recv     (ID 29)    0xFFFFFFFF80AA1234
+accept   (ID 30)    0xFFFFFFFF80BB4567
+socket   (ID 97)    0xFFFFFFFF80CC7890 
+bind     (ID 104)   0xFFFFFFFF80DDABCD 
+listen   (ID 106)   0xFFFFFFFF80EE1111 
+send     (ID 133)   0xFFFFFFFF80FF2222 
 
-[✓] 6 syscalls confirmed.
 Report generated: 2025-09-01
