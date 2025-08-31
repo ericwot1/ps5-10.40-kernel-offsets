@@ -1,6 +1,6 @@
 HEAD
 # PS5 kernel 10.40 Offest Rop ....
-=======
+
 ## Extra Syscalls (useful in exploits)
 
 | Syscall     | Number | Status   |
@@ -20,7 +20,7 @@ HEAD
 | getpid      | 20     | Confirmed |
 | kill        | 37     | Confirmed |
 | ptrace      | 26     | Confirmed |
->>>>>>> 9548cf6 (Update KERNEL10.40_offsets.md with extra syscalls (connect, mmap, ptrace, etc.))
+ 9548cf6 (Update KERNEL10.40_offsets.md with extra syscalls (connect, mmap, ptrace, etc.))
 
 ## Stack Pivot Gadgets (stack control)
 | Gadget      | Validated Address(es)                  | Status   |
