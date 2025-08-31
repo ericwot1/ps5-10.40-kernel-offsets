@@ -5,37 +5,37 @@
 ## 1. Syscalls
 
 ### `recv`
-**Description** : Reçoit des données depuis un socket réseau.  
+**Description**: Receives data from a network socket. 
 **ID** : 29  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
 ### `accept`
-**Description** : Accepte une nouvelle connexion entrante (serveur).  
+**Description**: Accepts a new incoming connection (server).
 **ID** : 30  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
 ### `socket`
-**Description** : Crée un nouveau socket réseau.  
+**Description**: Creates a new network socket.
 **ID** : 97  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
 ### `bind`
-**Description** : Associe un socket à une adresse IP et un port.  
+**Description**: Associates a socket with an IP address and port.  
 **ID** : 104  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
 ### `listen`
-**Description** : Met un socket en écoute pour accepter des connexions entrantes.  
+**Description** : Makes a socket listen for incoming connections.  
 **ID** : 106  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
 ### `send`
-**Description** : Envoie des données via un socket réseau.  
+**Description** : Sends data via a network socket.
 **ID** : 133  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
@@ -44,28 +44,28 @@
 
 ## 2. ROP Gadgets
 
-### `pop rdi ; ret`
-**Description** : Charge une valeur dans `RDI`.  
+### `pop rdi ; ret
+**Description** : Loads a value into `RDI`.  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
 ### `pop rsi ; ret`
-**Description** : Charge une valeur dans `RSI`.  
+**Description** : Loads a value into `RSI`.  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
 ### `pop rax ; ret`
-**Description** : Charge une valeur dans `RAX`.  
+**Description** : Loads a value into `RAX`.  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
 ### `mov [rdi], rsi ; ret`
-**Description** : Écrit la valeur de `RSI` à l’adresse pointée par `RDI`.  
+**Description** : Writes the value of `RSI` to the address pointed to by `RDI`.  
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
 ### `syscall`
-**Description** : Appelle un syscall du kernel avec les registres courants.  
+**Description** : Calls a kernel syscall with the current registers. 
 **Adresse** : `0xFFFFFFFF80XXXXXX`  
 **Status** :  Confirmed  
 
@@ -79,32 +79,32 @@
 ## 3. Kernel Offsets
 
 ### `allproc`
-**Description** : Liste chaînée des processus.  
+**Description** : Linked list of processes. 
 **Adresse** : `0xFFFFFFFF82XXXXXX`  
 **Status** :  Confirmed  
 
 ### `rootvnode`
-**Description** : Racine du système de fichiers.  
+**Description** : Root of the file system.  
 **Adresse** : `0xFFFFFFFF82XXXXXX`  
 **Status** :  Confirmed  
 
 ### `pmap_store`
-**Description** : Gestion pagination mémoire.  
+**Description** : Memory paging management. 
 **Adresse** : `0xFFFFFFFF82XXXXXX`  
 **Status** :  Confirmed  
 
 ### `kernel_pmap_store`
-**Description** : Pointeur principal vers pmap kernel.  
+**Description** : Main pointer to pmap kernel.  
 **Adresse** : `0xFFFFFFFF82XXXXXX`  
 **Status** :  Confirmed  
 
 ### `ucred`
-**Description** : UID/GID utilisateur.  
+**Description** : UID/GID user.  
 **Adresse** : `0xFFFFFFFF82XXXXXX`  
 **Status** :  Confirmed  
 
 ### `security_flags`
-**Description** : Flags liés à la sécurité.  
+**Description** : Security related flags.  
 **Adresse** : `0xFFFFFFFF82XXXXXX`  
 **Status** :  Confirmed  
 
